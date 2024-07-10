@@ -3,7 +3,6 @@
 # Sobre o projeto
 
 > O projeto Journey tem como objetivo ajudar o usuário a organizar viagens à trabalho ou lazer. O usuário pode criar uma viagem com nome, data de início e fim. Dentro da viagem o usuário pode planejar sua viagem adicionando atividades para realizar em cada dia.
->
 
 ## Requisitos
 
@@ -75,3 +74,16 @@
 - [  &check; ]  Criar endpoint de cadastro de viagem **`POST**/trips`
 - [  &check; ]  Criar endpoint de consulta de viagem **`GET**/trips/{tripId}`
 
+# DIA 2: Planner
+
+- [ &check; ]  Criar endpoint de atualização de viagem **`PUT**/trips/{tripId}`
+- [ &check; ]  Criar endpoint confirmação de viagem **`GET**/trips/{tripId}/confirm`
+- [ &check; ]  Criar tabela de `Participant`
+- [ &check; ]  Criar entidade que irá representar um`Participant`
+- [ &check; ]  Criar repository da entidade participante
+- [ &check; ]  Criar endpoint confirmação de participante **`POST**/participants/{participantId}/confirm`
+- [ &check; ]  Criar endpoint para convidar participante **`POST**/trips/{tripId}/invites`
+- [ &check; ]  Criar endpoint para consultar participantes **`GET**/trips/{tripId}/participants`
+
+
+__Esse projeto faz parte do bootcamp da [`rocketseat`](https://github.com/rocketseat) NLW Journey.__
