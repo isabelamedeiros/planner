@@ -85,5 +85,26 @@
 - [ &check; ]  Criar endpoint para convidar participante **`POST**/trips/{tripId}/invites`
 - [ &check; ]  Criar endpoint para consultar participantes **`GET**/trips/{tripId}/participants`
 
+# Dia 3: Planner
+
+- [ &check; ]  Criar tabela de `Activities`
+- [ &check; ]  Criar entidade que irá representar uma `Activity`
+- [ &check; ]  Criar repository da entidade atividade
+- [ &check; ]  Criar endpoint para cadastro de atividade **`POST**/trips/{tripId}/activities`
+- [ &check; ]  Criar endpoint para consultar atividades de uma viagem **`GET**/trips/{tripId}/invites`
+- [ &check; ]  Criar tabela de `Links`
+- [ &check; ]  Criar entidade que irá representar um `Link`
+- [ &check; ]  Criar repository da entidade links
+- [ &check; ]  Criar endpoint para criação de link **`POST**/trips/{tripId}/links`
+- [ &check; ]  Criar endpoint para consultar links de uma viagem **`GET**/trips/{tripId}/links`
+
+## Features extras
+
+- [ ]  Adicionar uma validação nos campos de data
+    - [ ]  A data de começo da viagem, é inferior a data de término viagem
+    - [ ]  A data de uma atividade está entre as datas da viagem
+- [ ]  Extração do core das trips pra dentro de uma classe Service
+- [ ]  Mapeamento das exceções da nossa aplicação
+    - [ ]  Com tratativas de erro personalizadas
 
 __Esse projeto faz parte do bootcamp da [`rocketseat`](https://github.com/rocketseat) NLW Journey.__
