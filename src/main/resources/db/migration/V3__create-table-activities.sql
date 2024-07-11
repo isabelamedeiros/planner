@@ -1,5 +1,5 @@
-CREATE TABLE activities (
-    id UUID DEFAULT RANDOM_UUID() PRIMARY KEY,
+CREATE TABLE planner.activities (
+    id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
     occurs_at TIMESTAMP NOT NULL,
     trip_id UUID,
